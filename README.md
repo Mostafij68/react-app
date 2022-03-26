@@ -1,6 +1,6 @@
 # Xiaomi Mobile Bazaar
 
-[Here Live Link](https://github.com/facebook/create-react-app).
+[Here Live Link](https://xiaomi-mobile.netlify.app/).
 
 ## Available Scripts
 
