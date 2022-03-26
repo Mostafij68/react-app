@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Xiaomi Mobile Bazaar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Here Live Link](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
