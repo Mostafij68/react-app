@@ -4,6 +4,8 @@ h2{
     color: #130f40;
 }
 .shop-container{
+    max-width: 90%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 4fr 1fr;
 }

@@ -4,7 +4,9 @@ import Shop from './components/Shop/Shop';
 function App() {
   return (
     <div className="App">
-      <h1 className='title'>Xiaomi Mobile Bazaar</h1>
+      <header>
+        <h1 className='title'>Xiaomi Mobile Bazaar</h1>
+      </header>
       <Shop></Shop>
     </div>
   );

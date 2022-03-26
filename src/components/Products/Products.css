@@ -31,4 +31,7 @@ h3{
     background: #130f40;
     color: #eeeeee;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
