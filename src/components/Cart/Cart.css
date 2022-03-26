@@ -1,6 +1,7 @@
 .cart-comp{
     position: sticky;
-    top: 20px;
+    padding: 0 10px;
+    top: 90px;
 }
 h2{
     font-size: 30px;
@@ -31,4 +32,15 @@ h2{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+@media only screen and (max-width: 400px) {
+    h2{
+        font-size: 25px;
+    }
+    .btn-choose{
+        width: 80%;
+        margin: 10px auto;
+        height: 40px;
+        font-size: 15px;
+    }
 }

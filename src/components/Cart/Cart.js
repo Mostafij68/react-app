@@ -3,10 +3,13 @@ import './Cart.css'
 
 const Cart = (props) => {
     const {cart} = props;
-    let products = cart.slice(0, 4);
-    
-    const chooneOne = (products) => {
-        console.log(products.name)
+    let products = cart.slice(0, 4); 
+    const [random, setRandom] = useState([]);
+    console.log(random)
+    const chooseOne = (products) => {
+        setRandom([])
+        products = products[Math.floor(Math.random()*products.length)];
+        setRandom(products)
     };
 
     return (
@@ -20,7 +23,7 @@ const Cart = (props) => {
                     </div>)
             }
             <div>
-                <button onClick={() => chooneOne(products)} className='btn-choose'>Choose one</button>
+                <button onClick={() => chooseOne(products)} className='btn-choose'>Choose one</button>
                 <button className='btn-choose'>Choose again</button>
             </div>
         </div>

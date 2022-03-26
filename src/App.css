@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -37,6 +38,9 @@
   }
 }
 header{
+  position: sticky;
+  top: 0;
+  z-index: 99;
   height: 70px;
   width: 100%;
   background: #130f40;
@@ -50,4 +54,22 @@ header{
   font-size: 40px;
   margin: 0;
   font-weight: 400;
+}
+footer{
+  margin-top: 20px;
+  padding: 20px 50px;
+  z-index: 99;
+  height: auto;
+  width: 100%;
+  background: #130f40;
+  color: #eee;
+}
+@media screen and (max-width: 400px){
+  header{
+    height: 70px;
+    width: 100%;
+  }
+  .title{
+    font-size: 30px;
+  }
 }
